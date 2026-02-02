@@ -1268,6 +1268,10 @@
 
     /* Responsive Design */
     @media (max-width: 768px) {
+      .duration-strip-section {
+        margin-top: 40px;
+      }
+
       .duration-strip-container {
         flex-direction: column;
         min-height: auto;
@@ -1283,12 +1287,14 @@
       .duration-info-block {
         flex: 1;
         width: 100%;
-        justify-content: flex-start;
+        justify-content: flex-center;
         padding: 0;
       }
 
       .duration-divider {
-        display: none;
+        /* display: none; */
+        width: 100%;
+        height: 2px;
       }
 
       .duration-strip-right {
@@ -1770,7 +1776,7 @@
 
     @media (max-width: 768px) {
       body {
-        padding: 30px 15px;
+        padding: 30px 0;
       }
 
       .section-header h1 {
@@ -1867,8 +1873,7 @@
   <div class="eligibility-section">
     <h2 class="eligibility-heading">Eligibility</h2>
     <div class="eligibility-container">
-      <img src="/eligibility.jpg"
-        class="eligibility-image" alt="Eligibility Image">
+      <img src="/eligibility.jpg" class="eligibility-image" alt="Eligibility Image">
       <div class="eligibility-right-container">
         <div class="eligibility-card">
           <div class="eligibility-card-image">
@@ -1884,7 +1889,8 @@
             <img src="/management.png" alt="Card Image">
           </div>
           <div class="eligibility-card-content">
-            Entrepreneurs seeking to develop essential skills to effectively manage critical business projects and ventures.
+            Entrepreneurs seeking to develop essential skills to effectively manage critical business projects and
+            ventures.
           </div>
         </div>
         <div class="eligibility-card">
@@ -1963,6 +1969,10 @@
     }
 
     @media (max-width: 768px) {
+      .eligibility-section {
+        padding: 0 15px;
+      }
+
       .eligibility-container {
         flex-direction: column;
       }
@@ -2199,7 +2209,11 @@
 
     @media (max-width: 768px) {
       body {
-        padding: 30px 15px;
+        padding: 30px 0px;
+      }
+
+      .highlights-section {
+        padding: 50px 15px;
       }
 
       .section-highlights-header h1 {
@@ -2353,9 +2367,9 @@
       <div class="fee-benefits-note">
         <h3>Special Fee Benefits</h3>
         <ul>
-          <li>Fee Benefit of <span class="fee-highlight">Rs. 4,000</span> on full fee payment</li>
-          <li>Fee Benefit of <span class="fee-highlight">Rs. 2,000</span> on one year fee <span
-              class="fee-highlight">(Applicable Only On First Year Fee)</span></li>
+          <li> <span>Fee Benefit of <span class="fee-highlight">Rs. 4,000</span> on full fee payment</span></li>
+          <li> <span>Fee Benefit of <span class="fee-highlight">Rs. 2,000</span> on one year fee <span
+                class="fee-highlight">(Applicable Only On First Year Fee)</span></span></li>
         </ul>
       </div>
     </div>
@@ -2908,6 +2922,12 @@
 
     .fee-structure-section .fee-benefits-note li:hover .fee-highlight {
       color: #ff5722;
+    }
+
+    @media (max-width: 768px) {
+      .fee-structure-section .fee-benefits-note li {
+        align-items: flex-start;
+      }
     }
 
     /* Floating elements animation */
