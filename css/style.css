@@ -1071,7 +1071,7 @@ h1{
   color:#000;
   font-family: 'HelveticaNowDisplay', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
-.ft{background: #ee5909; padding: 20px 0px 10px 0px;}
+.ft{background: #ff3d02; padding: 20px 0px 10px 0px;}
 .banner-bot{    position: absolute;
     left: 0;
    top:707px;
@@ -1265,7 +1265,7 @@ h1{
   font-family: 'HelveticaNowDisplay', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 600;
-  color: #f75e2b;
+  color: #ff3d02;
   text-transform: uppercase;
   letter-spacing: 2px;
   margin-bottom: 12px;
@@ -1326,7 +1326,7 @@ h1{
 
 .smu-cta-button {
   display: inline-block;
-  background-color: #FF6633;
+  background-color: #ff3d02;
   color: #ffffff;
   padding: 16px 40px;
   border-radius: 30px;
@@ -1915,7 +1915,7 @@ h1{
   display: inline-block;
   padding: 10px 20px;
   border-radius: 25px;
-  background: linear-gradient(135deg, #f75e2b 0%, #ff8a00 100%);
+  background: linear-gradient(135deg, #ff3d02 0%, #ff8a00 100%);
   color: #ffffff;
   font-family: 'HelveticaNowDisplay', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 14px;
@@ -1946,7 +1946,7 @@ h1{
 .gla-programs-dialog__specialization-pill:hover {
   transform: translateY(-3px) scale(1.05);
   box-shadow: 0 6px 20px rgba(247, 94, 43, 0.5);
-  background: linear-gradient(135deg, #ff8a00 0%, #f75e2b 100%);
+  background: linear-gradient(135deg, #ff8a00 0%, #ff3d02 100%);
 }
 
 .gla-programs-dialog__specialization-pill:nth-child(1) {
@@ -2954,7 +2954,7 @@ body.modal-open {
 .who-should-icon {
   width: 20px;
   height: 20px;
-  color: #f75e2b;
+  color: #ff3d02;
   animation: rotateIcon 3s linear infinite;
 }
 
@@ -2971,7 +2971,7 @@ body.modal-open {
   font-family: 'HelveticaNowDisplay', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 18px;
   font-weight: 700;
-  color: #f75e2b;
+  color: #ff3d02;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
@@ -3016,7 +3016,7 @@ body.modal-open {
 }
 
 .who-should-cta-btn {
-  background: linear-gradient(135deg, #f75e2b 0%, #ff8a00 100%);
+  background: linear-gradient(135deg, #ff3d02 0%, #ff8a00 100%);
   color: #ffffff;
   border: none;
   border-radius: 12px;
@@ -3068,7 +3068,7 @@ body.modal-open {
 }
 
 .who-should-cta-btn:hover {
-  background: linear-gradient(135deg, #ff8a00 0%, #f75e2b 100%);
+  background: linear-gradient(135deg, #ff8a00 0%, #ff3d02 100%);
   transform: translateY(-3px);
   box-shadow: 0 6px 20px rgba(247, 94, 43, 0.4);
 }
@@ -3143,7 +3143,7 @@ body.modal-open {
   height: auto;
   min-height: 24px;
   align-self: stretch;
-  background: linear-gradient(135deg, #f75e2b 0%, #ff8a00 100%);
+  background: linear-gradient(135deg, #ff3d02 0%, #ff8a00 100%);
   border-radius: 3px;
   flex-shrink: 0;
   animation: bulletGrow 0.5s ease-out forwards;
@@ -3182,7 +3182,7 @@ body.modal-open {
 }
 
 .who-should-list-item:hover span {
-  color: #f75e2b;
+  color: #ff3d02;
   transform: translateX(5px);
 }
 
@@ -3361,7 +3361,7 @@ body.modal-open {
 .icon-container {
   width: 80px;
   height: 80px;
-  background-color: #f75e2b;
+  background-color: #ff3d02;
   border-radius: 8px;
   display: flex;
   align-items: center;
