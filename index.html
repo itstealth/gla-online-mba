@@ -73,7 +73,7 @@
 
 
   <!-- GLA Hero Section - Mobile Optimized -->
-  <section class="gla-hero-section">
+  <section class="gla-hero-section" id="hero-section">
     <div class="gla-hero-container">
       <!-- <div class="gla-hero-content">
       <div class="gla-hero-logo-top">
@@ -1141,14 +1141,19 @@
 
       <!-- Right Section - Purple -->
       <div class="duration-strip-right">
-        <button class="download-brochure-btn">
+        <a href="#hero-section" class="download-brochure-btn">
           Download Brochure
-        </button>
+        </a>
       </div>
     </div>
   </section>
 
   <style>
+    /* Smooth scrolling for anchor links */
+    html {
+      scroll-behavior: smooth;
+    }
+
     /* Duration Strip Section */
     .duration-strip-section {
       width: 100%;
@@ -1250,11 +1255,15 @@
       text-transform: none;
       letter-spacing: 0.5px;
       white-space: nowrap;
+      text-decoration: none;
+      display: inline-block;
     }
 
     .download-brochure-btn:hover {
       opacity: 0.9;
       transform: translateY(-1px);
+      text-decoration: none;
+      color: #ffffff;
     }
 
     /* Responsive Design */

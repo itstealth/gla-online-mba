@@ -95,15 +95,15 @@ $('.ranking .owl-carousel').owlCarousel({
             responsiveClass: true,
             responsive: {
                 0: {
-                    items: 1,
+                    items: 2,
                     nav: true
                 },
                 600: {
-                    items: 1,
+                    items: 3,
                     nav: true
                 },
                 1000: {
-                    items: 4,
+                    items: 5,
                     nav: true,
                     loop: true
                 }
